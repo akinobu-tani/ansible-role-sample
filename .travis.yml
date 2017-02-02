@@ -1,6 +1,10 @@
 ---
 language: ruby
-rvm: "2.2"
+
+services:
+  - docker
+
+sudo: required
 
 gemfile: test/integration/Gemfile
 
