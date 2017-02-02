@@ -1,5 +1,5 @@
 ---
 
-- name: install git
+- name: install apache
   yum:
-    name: git
+    name: httpd

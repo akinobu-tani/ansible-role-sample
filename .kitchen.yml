@@ -1,0 +1,13 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: ansible_playbook
+  require_chef_for_busser: false
+
+platforms:
+  - name: centos-7.3
+
+suites:
+  - name: default
