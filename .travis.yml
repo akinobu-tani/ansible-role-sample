@@ -6,8 +6,6 @@ services:
 
 sudo: required
 
-gemfile: test/integration/Gemfile
-
 script:
   - bundle exec kitchen test
 
