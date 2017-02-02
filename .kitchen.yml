@@ -4,6 +4,7 @@ driver:
 
 provisioner:
   name: ansible_playbook
+  hosts: localhost
   require_chef_for_busser: false
 
 platforms:
