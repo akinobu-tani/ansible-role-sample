@@ -3,3 +3,4 @@
 - name: install apache
   yum:
     name: httpd
+  become: yes
