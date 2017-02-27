@@ -1,4 +1,5 @@
 ---
+
 language: ruby
 
 services:
@@ -11,6 +12,3 @@ script:
 
 after_script:
   - cat .kitchen/logs/kitchen.log
-
-# notifications:
-#   webhooks: https://galaxy.ansible.com/api/v1/notifications/
